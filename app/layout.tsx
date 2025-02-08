@@ -1,8 +1,8 @@
+import AuthProvider from '@/providers/auth'
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
 import { getSession } from './auth'
 import './globals.css'
-import AuthProvider from './providers/auth'
 
 const poppins = Poppins({
   variable: '--font-poppins',
